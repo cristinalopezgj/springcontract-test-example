@@ -1,5 +1,3 @@
-****SPRING CONTRACT TEST CLIENTES
-
 Los contratos están ubicados dentro del módulo servicio-clientes en "test/resources/contracts"
 
 Para generar los STUBS e instalarlos en el repositorio .m2 de Maven ejecutar, en la raíz del proyecto:
