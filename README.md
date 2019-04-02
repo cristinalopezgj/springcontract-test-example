@@ -1,4 +1,4 @@
-SPRING CONTRACT TEST CLIENTES
+****SPRING CONTRACT TEST CLIENTES
 
 Los contratos están ubicados dentro del módulo servicio-clientes en "test/resources/contracts"
 
