@@ -1,0 +1,5 @@
+rootProject.name = 'SpringContractTestClientes'
+rootProject.name = 'SpringContractTestClientes'
+include 'servicio-clientes'
+include 'servicio-verificador-contrato'
+

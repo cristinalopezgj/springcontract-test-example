@@ -1,0 +1,37 @@
+import org.springframework.cloud.contract.spec.Contract
+
+Contract.make {
+    request {
+        method 'GET'
+        url  '/clientes'
+    }
+    response {
+        status 200
+        body([
+                [
+                    idcliente: 1,
+                    nombre: 'Cristina',
+                    apellidos: 'López-Goicochea Juárez',
+                    ciudad: 'Barcelona',
+                    provincia: 'Barcelona'
+                ],
+                [
+                    idcliente: 2,
+                    nombre: 'Sandra',
+                    apellidos: 'Rodríguez Sánchez',
+                    ciudad: 'Madrid',
+                    provincia: 'Madrid'
+                ],
+                [
+                    idcliente: 3,
+                    nombre: 'Javier',
+                    apellidos: 'López Sánchez',
+                    ciudad: 'Dos Hermanas',
+                    provincia: 'Sevilla'
+                ]
+        ])
+        headers {
+            contentType(applicationJson())
+        }
+    }
+}
