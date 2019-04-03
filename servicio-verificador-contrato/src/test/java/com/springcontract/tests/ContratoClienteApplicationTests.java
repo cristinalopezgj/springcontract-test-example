@@ -32,7 +32,7 @@ public class ContratoClienteApplicationTests {
 
         Assert.assertTrue(cliente.getBody().getIdcliente() == 1);
         Assert.assertTrue(cliente.getBody().getNombre().equals("Cristina"));
-        Assert.assertTrue(cliente.getBody().getApellidos().equals("López-Goicochea Juárez"));
+        Assert.assertTrue(cliente.getBody().getApellidos().equals("López"));
         Assert.assertTrue(cliente.getBody().getCiudad().equals("Barcelona"));
         Assert.assertTrue(cliente.getBody().getProvincia().equals("Barcelona"));
     }

@@ -11,21 +11,21 @@ Contract.make {
                 [
                     idcliente: 1,
                     nombre: 'Cristina',
-                    apellidos: 'López-Goicochea Juárez',
+                    apellidos: 'López',
                     ciudad: 'Barcelona',
                     provincia: 'Barcelona'
                 ],
                 [
                     idcliente: 2,
                     nombre: 'Sandra',
-                    apellidos: 'Rodríguez Sánchez',
+                    apellidos: 'Rodríguez',
                     ciudad: 'Madrid',
                     provincia: 'Madrid'
                 ],
                 [
                     idcliente: 3,
                     nombre: 'Javier',
-                    apellidos: 'López Sánchez',
+                    apellidos: 'López',
                     ciudad: 'Dos Hermanas',
                     provincia: 'Sevilla'
                 ]

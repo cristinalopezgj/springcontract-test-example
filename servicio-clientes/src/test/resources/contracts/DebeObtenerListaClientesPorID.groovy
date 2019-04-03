@@ -10,7 +10,7 @@ Contract.make {
         body([
                 idcliente: 1,
                 nombre: 'Cristina',
-                apellidos: 'López-Goicochea Juárez',
+                apellidos: 'López',
                 ciudad: 'Barcelona',
                 provincia: 'Barcelona'
         ])
